@@ -1,0 +1,10 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: demo-pub-sub
+    redis:
+        host: 127.0.0.1
+        database: 0
+        port: 6379
+        topic: test
